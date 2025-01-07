@@ -1,0 +1,36 @@
+[0.456s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/build --no-deps symlink_data
+[0.658s] running develop
+[0.658s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.658s] !!
+[0.658s] 
+[0.658s]         ********************************************************************************
+[0.658s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.658s]         Instead, use pypa/build, pypa/installer or other
+[0.658s]         standards-based tools.
+[0.658s] 
+[0.658s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.658s]         ********************************************************************************
+[0.659s] 
+[0.659s] !!
+[0.659s]   easy_install.initialize_options(self)
+[0.780s] running egg_info
+[0.789s] creating build_test_pkg.egg-info
+[0.789s] writing build_test_pkg.egg-info/PKG-INFO
+[0.789s] writing dependency_links to build_test_pkg.egg-info/dependency_links.txt
+[0.789s] writing entry points to build_test_pkg.egg-info/entry_points.txt
+[0.789s] writing requirements to build_test_pkg.egg-info/requires.txt
+[0.789s] writing top-level names to build_test_pkg.egg-info/top_level.txt
+[0.789s] writing manifest file 'build_test_pkg.egg-info/SOURCES.txt'
+[0.807s] reading manifest file 'build_test_pkg.egg-info/SOURCES.txt'
+[0.808s] writing manifest file 'build_test_pkg.egg-info/SOURCES.txt'
+[0.817s] running build_ext
+[0.817s] Creating /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/lib/python3.10/site-packages/build-test-pkg.egg-link (link to .)
+[0.817s] Installing script1_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/lib/build_test_pkg
+[0.818s] 
+[0.818s] Installed /home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg
+[0.818s] running symlink_data
+[0.818s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/share/build_test_pkg/launch
+[0.818s] symbolically linking /home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/launch/test.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/share/build_test_pkg/launch
+[0.818s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/share/build_test_pkg/params_files
+[0.818s] symbolically linking /home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/params_files/params.yaml -> /home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/share/build_test_pkg/params_files
+[0.838s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/build --no-deps symlink_data

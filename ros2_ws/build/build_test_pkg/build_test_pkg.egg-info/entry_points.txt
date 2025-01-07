@@ -1,0 +1,2 @@
+[console_scripts]
+script1_exe = build_test_pkg.script1:main
