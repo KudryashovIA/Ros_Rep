@@ -1,0 +1,2 @@
+[console_scripts]
+simple_remapper_exe = remapping_pkg.simple_remapper:main

@@ -1,0 +1,35 @@
+[0.450s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/subscriber_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed install_data
+[0.594s] running egg_info
+[0.602s] creating ../../build/subscriber_pkg/subscriber_pkg.egg-info
+[0.602s] writing ../../build/subscriber_pkg/subscriber_pkg.egg-info/PKG-INFO
+[0.602s] writing dependency_links to ../../build/subscriber_pkg/subscriber_pkg.egg-info/dependency_links.txt
+[0.602s] writing entry points to ../../build/subscriber_pkg/subscriber_pkg.egg-info/entry_points.txt
+[0.602s] writing requirements to ../../build/subscriber_pkg/subscriber_pkg.egg-info/requires.txt
+[0.602s] writing top-level names to ../../build/subscriber_pkg/subscriber_pkg.egg-info/top_level.txt
+[0.602s] writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[0.620s] reading manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[0.620s] writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[0.621s] running build
+[0.621s] running build_py
+[0.621s] creating /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build/lib/subscriber_pkg
+[0.621s] copying subscriber_pkg/simple_subscriber.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build/lib/subscriber_pkg
+[0.621s] copying subscriber_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build/lib/subscriber_pkg
+[0.621s] running install
+[0.624s] running install_lib
+[0.633s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+[0.633s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build/lib/subscriber_pkg/simple_subscriber.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+[0.633s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build/lib/subscriber_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg
+[0.633s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.633s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg/__init__.py to __init__.cpython-310.pyc
+[0.633s] running install_data
+[0.634s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/share/ament_index/resource_index/packages
+[0.634s] copying resource/subscriber_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/share/ament_index/resource_index/packages
+[0.634s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/share/subscriber_pkg
+[0.634s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/share/subscriber_pkg/launch
+[0.634s] copying launch/subscriber_pkg_launch_file.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/share/subscriber_pkg/launch
+[0.634s] running install_egg_info
+[0.643s] Copying ../../build/subscriber_pkg/subscriber_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info
+[0.644s] running install_scripts
+[0.722s] Installing simple_subscriber script to /home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/subscriber_pkg
+[0.722s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/install.log'
+[0.737s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/subscriber_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed install_data

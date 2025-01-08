@@ -1,0 +1,2 @@
+[console_scripts]
+onshutdowndemo = example28_pkg.onshutdowndemo:main

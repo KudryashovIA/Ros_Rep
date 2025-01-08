@@ -1,0 +1,28 @@
+[0.502s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise21_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise21_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/install.log --single-version-externally-managed install_data
+[0.683s] running egg_info
+[0.693s] writing ../../build/exercise21_pkg/exercise21_pkg.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/exercise21_pkg/exercise21_pkg.egg-info/dependency_links.txt
+[0.693s] writing entry points to ../../build/exercise21_pkg/exercise21_pkg.egg-info/entry_points.txt
+[0.693s] writing requirements to ../../build/exercise21_pkg/exercise21_pkg.egg-info/requires.txt
+[0.693s] writing top-level names to ../../build/exercise21_pkg/exercise21_pkg.egg-info/top_level.txt
+[0.714s] reading manifest file '../../build/exercise21_pkg/exercise21_pkg.egg-info/SOURCES.txt'
+[0.715s] writing manifest file '../../build/exercise21_pkg/exercise21_pkg.egg-info/SOURCES.txt'
+[0.716s] running build
+[0.716s] running build_py
+[0.716s] copying exercise21_pkg/exercise21.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build/lib/exercise21_pkg
+[0.716s] copying exercise21_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build/lib/exercise21_pkg
+[0.716s] running install
+[0.720s] running install_lib
+[0.730s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build/lib/exercise21_pkg/exercise21.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg
+[0.731s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg/exercise21.py to exercise21.cpython-310.pyc
+[0.731s] running install_data
+[0.731s] copying resource/exercise21_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/ament_index/resource_index/packages
+[0.731s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/exercise21_pkg
+[0.732s] copying launch/exercise21_pkg_launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/exercise21_pkg/lauch
+[0.732s] running install_egg_info
+[0.743s] removing '/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.743s] Copying ../../build/exercise21_pkg/exercise21_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg-0.0.0-py3.10.egg-info
+[0.744s] running install_scripts
+[0.825s] Installing exercise21 script to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/exercise21_pkg
+[0.825s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/install.log'
+[0.845s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise21_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise21_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/install.log --single-version-externally-managed install_data

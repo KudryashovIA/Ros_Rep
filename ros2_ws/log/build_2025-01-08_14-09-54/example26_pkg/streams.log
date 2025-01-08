@@ -1,0 +1,29 @@
+[0.471s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/example26_pkg': LD_LIBRARY_PATH=/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example26_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/install.log --single-version-externally-managed install_data
+[0.629s] running egg_info
+[0.637s] writing ../../build/example26_pkg/example26_pkg.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../../build/example26_pkg/example26_pkg.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../../build/example26_pkg/example26_pkg.egg-info/entry_points.txt
+[0.638s] writing requirements to ../../build/example26_pkg/example26_pkg.egg-info/requires.txt
+[0.638s] writing top-level names to ../../build/example26_pkg/example26_pkg.egg-info/top_level.txt
+[0.656s] reading manifest file '../../build/example26_pkg/example26_pkg.egg-info/SOURCES.txt'
+[0.656s] writing manifest file '../../build/example26_pkg/example26_pkg.egg-info/SOURCES.txt'
+[0.656s] running build
+[0.656s] running build_py
+[0.657s] copying example26_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/build/lib/example26_pkg
+[0.657s] copying example26_pkg/example26.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/build/lib/example26_pkg
+[0.657s] running install
+[0.660s] running install_lib
+[0.668s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/build/lib/example26_pkg/example26.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages/example26_pkg
+[0.669s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages/example26_pkg/example26.py to example26.cpython-310.pyc
+[0.669s] running install_data
+[0.669s] copying resource/example26_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/share/ament_index/resource_index/packages
+[0.669s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/share/example26_pkg
+[0.669s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/share/example26_pkg/launch
+[0.669s] copying launch/example26.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/share/example26_pkg/launch
+[0.670s] running install_egg_info
+[0.679s] removing '/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages/example26_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.679s] Copying ../../build/example26_pkg/example26_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages/example26_pkg-0.0.0-py3.10.egg-info
+[0.680s] running install_scripts
+[0.758s] Installing movement_server script to /home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/example26_pkg
+[0.758s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/install.log'
+[0.773s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/example26_pkg' returned '0': LD_LIBRARY_PATH=/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example26_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/example26_pkg/install.log --single-version-externally-managed install_data

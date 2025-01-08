@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/exercise21_pkg/exercise21_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/exercise21_pkg/exercise21_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/exercise21_pkg/exercise21_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/exercise21_pkg/exercise21_pkg.egg-info/requires.txt
+writing top-level names to ../../build/exercise21_pkg/exercise21_pkg.egg-info/top_level.txt
+reading manifest file '../../build/exercise21_pkg/exercise21_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/exercise21_pkg/exercise21_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying exercise21_pkg/exercise21.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build/lib/exercise21_pkg
+copying exercise21_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/build/lib/exercise21_pkg
+running install
+running install_lib
+running install_data
+copying resource/exercise21_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/exercise21_pkg
+copying launch/exercise21_pkg_launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/share/exercise21_pkg/lauch
+running install_egg_info
+removing '/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/exercise21_pkg/exercise21_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/python3.10/site-packages/exercise21_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exercise21 script to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg/lib/exercise21_pkg
+writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/exercise21_pkg/install.log'
