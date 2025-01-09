@@ -1,0 +1,3 @@
+[console_scripts]
+publisher_dds_exe = dds_tests_pkg.publisher_dds:main
+subscriber_dds_exe = dds_tests_pkg.subscriber_dds:main

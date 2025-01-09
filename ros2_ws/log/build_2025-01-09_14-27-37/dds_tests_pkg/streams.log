@@ -1,0 +1,40 @@
+[0.472s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/dds_tests_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dds_tests_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/install.log --single-version-externally-managed install_data
+[0.643s] running egg_info
+[0.652s] creating ../../build/dds_tests_pkg/dds_tests_pkg.egg-info
+[0.652s] writing ../../build/dds_tests_pkg/dds_tests_pkg.egg-info/PKG-INFO
+[0.652s] writing dependency_links to ../../build/dds_tests_pkg/dds_tests_pkg.egg-info/dependency_links.txt
+[0.652s] writing entry points to ../../build/dds_tests_pkg/dds_tests_pkg.egg-info/entry_points.txt
+[0.652s] writing requirements to ../../build/dds_tests_pkg/dds_tests_pkg.egg-info/requires.txt
+[0.652s] writing top-level names to ../../build/dds_tests_pkg/dds_tests_pkg.egg-info/top_level.txt
+[0.652s] writing manifest file '../../build/dds_tests_pkg/dds_tests_pkg.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../build/dds_tests_pkg/dds_tests_pkg.egg-info/SOURCES.txt'
+[0.672s] writing manifest file '../../build/dds_tests_pkg/dds_tests_pkg.egg-info/SOURCES.txt'
+[0.672s] running build
+[0.672s] running build_py
+[0.672s] creating /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg
+[0.672s] copying dds_tests_pkg/subscriber_dds.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg
+[0.672s] copying dds_tests_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg
+[0.672s] copying dds_tests_pkg/publisher_dds.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg
+[0.672s] running install
+[0.675s] running install_lib
+[0.684s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg
+[0.684s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg/subscriber_dds.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg
+[0.684s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg
+[0.684s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build/lib/dds_tests_pkg/publisher_dds.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg
+[0.684s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg/subscriber_dds.py to subscriber_dds.cpython-310.pyc
+[0.685s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg/__init__.py to __init__.cpython-310.pyc
+[0.685s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg/publisher_dds.py to publisher_dds.cpython-310.pyc
+[0.685s] running install_data
+[0.685s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/ament_index/resource_index/packages
+[0.685s] copying resource/dds_tests_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/ament_index/resource_index/packages
+[0.686s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/dds_tests_pkg
+[0.686s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/dds_tests_pkg/launch
+[0.686s] copying launch/publisher_dds.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/dds_tests_pkg/launch
+[0.686s] copying launch/subscriber_dds.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/share/dds_tests_pkg/launch
+[0.686s] running install_egg_info
+[0.695s] Copying ../../build/dds_tests_pkg/dds_tests_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages/dds_tests_pkg-0.0.0-py3.10.egg-info
+[0.696s] running install_scripts
+[0.775s] Installing publisher_dds_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/dds_tests_pkg
+[0.775s] Installing subscriber_dds_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/dds_tests_pkg
+[0.775s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/install.log'
+[0.790s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/dds_tests_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dds_tests_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/dds_tests_pkg/install.log --single-version-externally-managed install_data
