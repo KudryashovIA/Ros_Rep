@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/__init__.py" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/_age.py" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/_age_s.c" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/__init__.py" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message.py" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message_s.c" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

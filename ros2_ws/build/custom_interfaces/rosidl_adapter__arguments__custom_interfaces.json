@@ -1,6 +1,7 @@
 {
   "package_name": "custom_interfaces",
   "non_idl_tuples": [
-    "/home/ivan/work/Ros_Rep/ros2_ws/src/custom_interfaces:msg/Age.msg"
+    "/home/ivan/work/Ros_Rep/ros2_ws/src/custom_interfaces:msg/Age.msg",
+    "/home/ivan/work/Ros_Rep/ros2_ws/src/custom_interfaces:srv/MyCustomServiceMessage.srv"
   ]
 }

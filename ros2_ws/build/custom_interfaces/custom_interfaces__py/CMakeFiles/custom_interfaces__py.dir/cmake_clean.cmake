@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/custom_interfaces/msg/__init__.py"
   "../rosidl_generator_py/custom_interfaces/msg/_age.py"
   "../rosidl_generator_py/custom_interfaces/msg/_age_s.c"
+  "../rosidl_generator_py/custom_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message.py"
+  "../rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message_s.c"
   "CMakeFiles/custom_interfaces__py"
 )
 

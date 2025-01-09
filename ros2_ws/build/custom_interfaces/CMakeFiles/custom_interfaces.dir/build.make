@@ -67,6 +67,9 @@ include CMakeFiles/custom_interfaces.dir/compiler_depend.make
 include CMakeFiles/custom_interfaces.dir/progress.make
 
 CMakeFiles/custom_interfaces: /home/ivan/work/Ros_Rep/ros2_ws/src/custom_interfaces/msg/Age.msg
+CMakeFiles/custom_interfaces: /home/ivan/work/Ros_Rep/ros2_ws/src/custom_interfaces/srv/MyCustomServiceMessage.srv
+CMakeFiles/custom_interfaces: rosidl_cmake/srv/MyCustomServiceMessage_Request.msg
+CMakeFiles/custom_interfaces: rosidl_cmake/srv/MyCustomServiceMessage_Response.msg
 
 custom_interfaces: CMakeFiles/custom_interfaces
 custom_interfaces: CMakeFiles/custom_interfaces.dir/build.make

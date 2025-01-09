@@ -70,6 +70,10 @@ CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/ag
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/my_custom_service_message.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/age.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/custom_interfaces/msg/age.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/custom_interfaces/msg/age.hpp: /opt/ros/humble/share/rosidl
 rosidl_generator_cpp/custom_interfaces/msg/age.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/custom_interfaces/msg/age.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custom_interfaces/msg/age.hpp: rosidl_adapter/custom_interfaces/msg/Age.idl
+rosidl_generator_cpp/custom_interfaces/msg/age.hpp: rosidl_adapter/custom_interfaces/srv/MyCustomServiceMessage.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/age__struct.hpp: rosidl_genera
 rosidl_generator_cpp/custom_interfaces/msg/detail/age__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/age__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/srv/my_custom_service_message.hpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/my_custom_service_message.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp
+
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/age.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/age__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/my_custom_service_message.hpp
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp.dir/build.make
 .PHONY : custom_interfaces__cpp
 

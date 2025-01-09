@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/age__builder.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/age__struct.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
   "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/age__traits.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
+  "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/srv/my_custom_service_message.hpp" "/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
   )
 
 

@@ -1,0 +1,26 @@
+[0.502s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise62_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise62_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/install.log --single-version-externally-managed install_data
+[0.665s] running egg_info
+[0.673s] writing ../../build/exercise62_pkg/exercise62_pkg.egg-info/PKG-INFO
+[0.673s] writing dependency_links to ../../build/exercise62_pkg/exercise62_pkg.egg-info/dependency_links.txt
+[0.674s] writing entry points to ../../build/exercise62_pkg/exercise62_pkg.egg-info/entry_points.txt
+[0.674s] writing requirements to ../../build/exercise62_pkg/exercise62_pkg.egg-info/requires.txt
+[0.674s] writing top-level names to ../../build/exercise62_pkg/exercise62_pkg.egg-info/top_level.txt
+[0.692s] reading manifest file '../../build/exercise62_pkg/exercise62_pkg.egg-info/SOURCES.txt'
+[0.693s] writing manifest file '../../build/exercise62_pkg/exercise62_pkg.egg-info/SOURCES.txt'
+[0.693s] running build
+[0.693s] running build_py
+[0.693s] copying exercise62_pkg/server_exercise62.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/build/lib/exercise62_pkg
+[0.693s] copying exercise62_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/build/lib/exercise62_pkg
+[0.693s] running install
+[0.696s] running install_lib
+[0.705s] running install_data
+[0.705s] copying resource/exercise62_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/share/ament_index/resource_index/packages
+[0.705s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/share/exercise62_pkg
+[0.705s] copying launch/server_exercise62.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/share/exercise62_pkg/launch
+[0.706s] running install_egg_info
+[0.716s] removing '/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/lib/python3.10/site-packages/exercise62_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.716s] Copying ../../build/exercise62_pkg/exercise62_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/lib/python3.10/site-packages/exercise62_pkg-0.0.0-py3.10.egg-info
+[0.716s] running install_scripts
+[0.796s] Installing server_exercise62 script to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/lib/exercise62_pkg
+[0.796s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/install.log'
+[0.811s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise62_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise62_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise62_pkg/install.log --single-version-externally-managed install_data
