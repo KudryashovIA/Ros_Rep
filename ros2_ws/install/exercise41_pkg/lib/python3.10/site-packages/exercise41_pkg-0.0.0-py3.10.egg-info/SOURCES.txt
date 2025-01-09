@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/exercise41_pkg/exercise41_pkg.egg-info/PKG-INFO
+../../build/exercise41_pkg/exercise41_pkg.egg-info/SOURCES.txt
+../../build/exercise41_pkg/exercise41_pkg.egg-info/dependency_links.txt
+../../build/exercise41_pkg/exercise41_pkg.egg-info/entry_points.txt
+../../build/exercise41_pkg/exercise41_pkg.egg-info/requires.txt
+../../build/exercise41_pkg/exercise41_pkg.egg-info/top_level.txt
+../../build/exercise41_pkg/exercise41_pkg.egg-info/zip-safe
+exercise41_pkg/__init__.py
+exercise41_pkg/logger_example.py
+launch/exercise41_pkg_launch_file.launch.py
+resource/exercise41_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
