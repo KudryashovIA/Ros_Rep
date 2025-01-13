@@ -1,0 +1,2 @@
+[console_scripts]
+mutualexclusive_demo_fun = example_3_4_pkg.callback_groups_examples:mutualexclusive_demo_fun

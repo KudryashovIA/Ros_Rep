@@ -1,0 +1,33 @@
+[0.545s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/example_3_4_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_3_4_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/install.log --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.708s] creating ../../build/example_3_4_pkg/example_3_4_pkg.egg-info
+[0.708s] writing ../../build/example_3_4_pkg/example_3_4_pkg.egg-info/PKG-INFO
+[0.708s] writing dependency_links to ../../build/example_3_4_pkg/example_3_4_pkg.egg-info/dependency_links.txt
+[0.708s] writing entry points to ../../build/example_3_4_pkg/example_3_4_pkg.egg-info/entry_points.txt
+[0.708s] writing requirements to ../../build/example_3_4_pkg/example_3_4_pkg.egg-info/requires.txt
+[0.708s] writing top-level names to ../../build/example_3_4_pkg/example_3_4_pkg.egg-info/top_level.txt
+[0.708s] writing manifest file '../../build/example_3_4_pkg/example_3_4_pkg.egg-info/SOURCES.txt'
+[0.725s] reading manifest file '../../build/example_3_4_pkg/example_3_4_pkg.egg-info/SOURCES.txt'
+[0.726s] writing manifest file '../../build/example_3_4_pkg/example_3_4_pkg.egg-info/SOURCES.txt'
+[0.726s] running build
+[0.726s] running build_py
+[0.727s] creating /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build/lib/example_3_4_pkg
+[0.727s] copying example_3_4_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build/lib/example_3_4_pkg
+[0.727s] copying example_3_4_pkg/callback_groups_examples.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build/lib/example_3_4_pkg
+[0.727s] running install
+[0.730s] running install_lib
+[0.738s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg
+[0.738s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build/lib/example_3_4_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg
+[0.738s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build/lib/example_3_4_pkg/callback_groups_examples.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg
+[0.738s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg/__init__.py to __init__.cpython-310.pyc
+[0.739s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg/callback_groups_examples.py to callback_groups_examples.cpython-310.pyc
+[0.739s] running install_data
+[0.739s] creating /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/share/ament_index/resource_index/packages
+[0.739s] copying resource/example_3_4_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/share/ament_index/resource_index/packages
+[0.740s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/share/example_3_4_pkg
+[0.740s] running install_egg_info
+[0.749s] Copying ../../build/example_3_4_pkg/example_3_4_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages/example_3_4_pkg-0.0.0-py3.10.egg-info
+[0.749s] running install_scripts
+[0.825s] Installing mutualexclusive_demo_fun script to /home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/example_3_4_pkg
+[0.825s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/install.log'
+[0.840s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/example_3_4_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_3_4_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/example_3_4_pkg/install.log --single-version-externally-managed install_data

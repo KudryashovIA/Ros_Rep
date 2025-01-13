@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/PKG-INFO
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/SOURCES.txt
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/dependency_links.txt
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/entry_points.txt
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/requires.txt
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/top_level.txt
+../../build/example_3_4_pkg/example_3_4_pkg.egg-info/zip-safe
+example_3_4_pkg/__init__.py
+example_3_4_pkg/callback_groups_examples.py
+resource/example_3_4_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,28 @@
+[0.535s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/multithreading_ros2_examples': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multithreading_ros2_examples build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/install.log --single-version-externally-managed install_data
+[0.724s] running egg_info
+[0.734s] writing ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/entry_points.txt
+[0.734s] writing requirements to ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/requires.txt
+[0.735s] writing top-level names to ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/top_level.txt
+[0.755s] reading manifest file '../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/SOURCES.txt'
+[0.756s] writing manifest file '../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info/SOURCES.txt'
+[0.756s] running build
+[0.756s] running build_py
+[0.756s] copying multithreading_ros2_examples/multithreading.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/build/lib/multithreading_ros2_examples
+[0.756s] copying multithreading_ros2_examples/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/build/lib/multithreading_ros2_examples
+[0.756s] running install
+[0.760s] running install_lib
+[0.769s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/build/lib/multithreading_ros2_examples/multithreading.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages/multithreading_ros2_examples
+[0.770s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages/multithreading_ros2_examples/multithreading.py to multithreading.cpython-310.pyc
+[0.770s] running install_data
+[0.771s] copying resource/multithreading_ros2_examples -> /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/share/ament_index/resource_index/packages
+[0.771s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/share/multithreading_ros2_examples
+[0.771s] copying launch/multithreading.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/share/multithreading_ros2_examples/launch
+[0.771s] running install_egg_info
+[0.782s] removing '/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages/multithreading_ros2_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.782s] Copying ../../build/multithreading_ros2_examples/multithreading_ros2_examples.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages/multithreading_ros2_examples-0.0.0-py3.10.egg-info
+[0.783s] running install_scripts
+[0.868s] Installing multithreading script to /home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/multithreading_ros2_examples
+[0.868s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/install.log'
+[0.890s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/multithreading_ros2_examples' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multithreading_ros2_examples build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/multithreading_ros2_examples/install.log --single-version-externally-managed install_data

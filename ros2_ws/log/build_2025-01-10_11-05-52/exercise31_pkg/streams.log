@@ -1,0 +1,31 @@
+[0.560s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise31_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/install.log --single-version-externally-managed install_data
+[0.739s] running egg_info
+[0.749s] writing ../../build/exercise31_pkg/exercise31_pkg.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/exercise31_pkg/exercise31_pkg.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/exercise31_pkg/exercise31_pkg.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../build/exercise31_pkg/exercise31_pkg.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/exercise31_pkg/exercise31_pkg.egg-info/top_level.txt
+[0.770s] reading manifest file '../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt'
+[0.770s] writing manifest file '../../build/exercise31_pkg/exercise31_pkg.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] copying exercise31_pkg/exercise31.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build/lib/exercise31_pkg
+[0.771s] copying exercise31_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build/lib/exercise31_pkg
+[0.771s] copying exercise31_pkg/exercise32.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build/lib/exercise31_pkg
+[0.771s] running install
+[0.775s] running install_lib
+[0.784s] copying /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build/lib/exercise31_pkg/exercise32.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg
+[0.785s] byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg/exercise32.py to exercise32.cpython-310.pyc
+[0.786s] running install_data
+[0.786s] copying resource/exercise31_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/share/ament_index/resource_index/packages
+[0.786s] copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/share/exercise31_pkg
+[0.786s] copying launch/exercise31_pkg_launch_file.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/share/exercise31_pkg/launch
+[0.786s] copying launch/exercise32_pkg_launch_file.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/share/exercise31_pkg/launch
+[0.786s] running install_egg_info
+[0.797s] removing '/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.797s] Copying ../../build/exercise31_pkg/exercise31_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages/exercise31_pkg-0.0.0-py3.10.egg-info
+[0.798s] running install_scripts
+[0.883s] Installing exercise31 script to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/exercise31_pkg
+[0.883s] Installing exercise32 script to /home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/exercise31_pkg
+[0.883s] writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/install.log'
+[0.903s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/exercise31_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/exercise31_pkg build --build-base /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/build install --record /home/ivan/work/Ros_Rep/ros2_ws/build/exercise31_pkg/install.log --single-version-externally-managed install_data
