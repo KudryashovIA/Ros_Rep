@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating qos_tests_pkg.egg-info
+writing qos_tests_pkg.egg-info/PKG-INFO
+writing dependency_links to qos_tests_pkg.egg-info/dependency_links.txt
+writing entry points to qos_tests_pkg.egg-info/entry_points.txt
+writing requirements to qos_tests_pkg.egg-info/requires.txt
+writing top-level names to qos_tests_pkg.egg-info/top_level.txt
+writing manifest file 'qos_tests_pkg.egg-info/SOURCES.txt'
+reading manifest file 'qos_tests_pkg.egg-info/SOURCES.txt'
+writing manifest file 'qos_tests_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/python3.10/site-packages/qos-tests-pkg.egg-link (link to .)
+Installing publisher_custom_minimal_qos_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/qos_tests_pkg
+Installing subscriber_custom_minimal_qos_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/qos_tests_pkg
+
+Installed /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg
+running symlink_data
+creating /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/resource/qos_tests_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/share/qos_tests_pkg

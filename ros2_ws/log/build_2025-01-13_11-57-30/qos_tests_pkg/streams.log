@@ -1,0 +1,32 @@
+[0.529s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/build --no-deps symlink_data
+[0.770s] running develop
+[0.770s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.771s] !!
+[0.771s] 
+[0.771s]         ********************************************************************************
+[0.771s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.771s]         Instead, use pypa/build, pypa/installer or other
+[0.771s]         standards-based tools.
+[0.771s] 
+[0.771s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.772s]         ********************************************************************************
+[0.772s] 
+[0.772s] !!
+[0.772s]   easy_install.initialize_options(self)
+[0.908s] running egg_info
+[0.917s] writing qos_tests_pkg.egg-info/PKG-INFO
+[0.918s] writing dependency_links to qos_tests_pkg.egg-info/dependency_links.txt
+[0.918s] writing entry points to qos_tests_pkg.egg-info/entry_points.txt
+[0.918s] writing requirements to qos_tests_pkg.egg-info/requires.txt
+[0.918s] writing top-level names to qos_tests_pkg.egg-info/top_level.txt
+[0.937s] reading manifest file 'qos_tests_pkg.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'qos_tests_pkg.egg-info/SOURCES.txt'
+[0.949s] running build_ext
+[0.949s] Creating /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/python3.10/site-packages/qos-tests-pkg.egg-link (link to .)
+[0.949s] Installing publisher_custom_minimal_qos_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/qos_tests_pkg
+[0.950s] Installing subscriber_custom_minimal_qos_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/qos_tests_pkg
+[0.950s] Installing subscriber_scan_qos script to /home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/qos_tests_pkg
+[0.950s] 
+[0.950s] Installed /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg
+[0.950s] running symlink_data
+[0.975s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg' returned '0': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/qos_tests_pkg/build --no-deps symlink_data
