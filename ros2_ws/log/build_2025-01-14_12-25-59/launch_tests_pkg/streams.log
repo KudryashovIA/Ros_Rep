@@ -1,0 +1,32 @@
+[0.538s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/build --no-deps symlink_data
+[0.774s] running develop
+[0.774s] /home/ivan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.774s] !!
+[0.774s] 
+[0.774s]         ********************************************************************************
+[0.774s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.774s]         Instead, use pypa/build, pypa/installer or other
+[0.774s]         standards-based tools.
+[0.775s] 
+[0.775s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.775s]         ********************************************************************************
+[0.775s] 
+[0.775s] !!
+[0.775s]   easy_install.initialize_options(self)
+[0.919s] running egg_info
+[0.929s] writing launch_tests_pkg.egg-info/PKG-INFO
+[0.929s] writing dependency_links to launch_tests_pkg.egg-info/dependency_links.txt
+[0.929s] writing entry points to launch_tests_pkg.egg-info/entry_points.txt
+[0.929s] writing requirements to launch_tests_pkg.egg-info/requires.txt
+[0.929s] writing top-level names to launch_tests_pkg.egg-info/top_level.txt
+[0.949s] reading manifest file 'launch_tests_pkg.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'launch_tests_pkg.egg-info/SOURCES.txt'
+[0.963s] running build_ext
+[0.963s] Creating /home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg/lib/python3.10/site-packages/launch-tests-pkg.egg-link (link to .)
+[0.964s] Installing move_robot_exe script to /home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg
+[0.964s] 
+[0.964s] Installed /home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg
+[0.964s] running symlink_data
+[0.965s] symbolically linking /home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/rviz_config/launch_part.rviz -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/rviz
+[0.965s] error: can't copy '/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/rviz_config/1.rviz': doesn't exist or not a regular file
+[0.994s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg' returned '1': PYTHONPATH=/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/build --no-deps symlink_data

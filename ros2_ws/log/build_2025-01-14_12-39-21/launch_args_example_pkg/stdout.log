@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info
+writing ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/requires.txt
+writing top-level names to ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/top_level.txt
+writing manifest file '../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/build/lib/launch_args_example_pkg
+copying launch_args_example_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/build/lib/launch_args_example_pkg
+copying launch_args_example_pkg/arguments_examples.py -> /home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/build/lib/launch_args_example_pkg
+running install
+running install_lib
+creating /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg
+copying /home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/build/lib/launch_args_example_pkg/__init__.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg
+copying /home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/build/lib/launch_args_example_pkg/arguments_examples.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg
+byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg/arguments_examples.py to arguments_examples.cpython-310.pyc
+running install_data
+creating /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/packages
+copying resource/launch_args_example_pkg -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg
+creating /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/launch
+copying launch/start_with_arguments.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/launch
+copying launch/start_with_arguments_dummy.launch.py -> /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/launch
+running install_egg_info
+Copying ../../build/launch_args_example_pkg/launch_args_example_pkg.egg-info to /home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg/lib/python3.10/site-packages/launch_args_example_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ivan/work/Ros_Rep/ros2_ws/build/launch_args_example_pkg/install.log'

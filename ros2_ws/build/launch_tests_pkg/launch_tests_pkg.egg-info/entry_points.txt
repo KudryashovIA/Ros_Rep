@@ -1,0 +1,4 @@
+[console_scripts]
+move_robot_exe = launch_tests_pkg.move_robot:main
+move_robot_with_arguments_exe = launch_tests_pkg.move_robot_with_arguments:main
+move_robot_with_params_exe = launch_tests_pkg.move_robot_with_params:main
