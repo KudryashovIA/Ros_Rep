@@ -1,0 +1,323 @@
+[0.011s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_server:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_client:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/remapping_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/publisher_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/my_package:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples:/home/ivan/work/Ros_Rep/ros2_ws/install/movement_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise41_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example28_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/client_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces -- -j16 -l16
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.182s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.203s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.204s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.208s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.246s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.247s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.370s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.388s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.693s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.260s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.260s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.260s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.296s] -- Added test 'lint_cmake' to check CMake code style
+[1.296s] -- Added test 'xmllint' to check XML markup files
+[1.301s] -- Configuring done
+[1.332s] -- Generating done
+[1.334s] -- Build files have been written to: /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces
+[1.361s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.376s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.389s] [  4%] Built target ament_cmake_python_copy_custom_interfaces
+[1.581s] running egg_info
+[1.591s] writing custom_interfaces.egg-info/PKG-INFO
+[1.591s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.592s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.625s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.626s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.655s] [  4%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[1.767s] [  8%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o[0m
+[1.767s] [  8%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/move__functions.c.o[0m
+[1.768s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o[0m
+[1.769s] [ 10%] Built target custom_interfaces__cpp
+[1.781s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.781s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.785s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.874s] [ 19%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[1.912s] [ 19%] Built target custom_interfaces__rosidl_generator_c
+[1.922s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.925s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.925s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.037s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[2.056s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/move__type_support.cpp.o[0m
+[2.056s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/age__type_support.cpp.o[0m
+[2.056s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o[0m
+[2.090s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.103s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/move__type_support.cpp.o[0m
+[2.105s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/age__type_support.cpp.o[0m
+[2.107s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp.o[0m
+[2.146s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.160s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/age__type_support.cpp.o[0m
+[2.161s] [ 42%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[2.163s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/my_custom_service_message__type_support.cpp.o[0m
+[2.276s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[2.291s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/age__type_support.cpp.o[0m
+[2.295s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/move__type_support.cpp.o[0m
+[2.302s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o[0m
+[2.394s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.396s] [ 53%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[2.407s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/my_custom_service_message__type_support_c.cpp.o[0m
+[2.415s] [ 57%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/move__type_support_c.cpp.o[0m
+[2.418s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/age__type_support_c.cpp.o[0m
+[2.469s] [ 59%] Built target custom_interfaces__rosidl_typesupport_c
+[2.565s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[2.577s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/move__type_support.c.o[0m
+[2.579s] [ 63%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.c.o[0m
+[2.581s] [ 65%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/age__type_support.c.o[0m
+[2.630s] [ 68%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.667s] [ 68%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[2.684s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[2.688s] [ 72%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.723s] [ 72%] Built target custom_interfaces__rosidl_typesupport_cpp
+[2.768s] [ 72%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.821s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.862s] [ 76%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.894s] [ 76%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[2.927s] [ 76%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[2.954s] [ 76%] Built target custom_interfaces
+[2.981s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.596s] [ 78%] Built target custom_interfaces__py
+[3.607s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[3.619s] [ 80%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message_s.c.o[0m
+[3.619s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_move_s.c.o[0m
+[3.622s] [ 85%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_age_s.c.o[0m
+[3.733s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[3.777s] [ 87%] Built target custom_interfaces__rosidl_generator_py
+[3.791s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[3.791s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.791s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.803s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.805s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.805s] [ 93%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.897s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.906s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.939s] [ 97%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[3.947s] [ 97%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.955s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.989s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.005s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_server:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_client:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/remapping_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/publisher_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/my_package:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples:/home/ivan/work/Ros_Rep/ros2_ws/install/movement_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise41_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example28_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/client_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces -- -j16 -l16
+[4.134s] Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_server:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_client:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/remapping_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/publisher_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/my_package:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples:/home/ivan/work/Ros_Rep/ros2_ws/install/movement_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise41_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example28_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/client_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces
+[4.142s] -- Install configuration: ""
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[4.142s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.142s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.142s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.c
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.h
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.h
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.h
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.h
+[4.142s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.h
+[4.142s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.h
+[4.142s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.c
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.h
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.h
+[4.143s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.h
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.h
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.c
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.h
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.h
+[4.143s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[4.143s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[4.143s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_c.h
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_c.h
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.144s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.144s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp
+[4.144s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.hpp
+[4.145s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.145s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__builder.hpp
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__traits.hpp
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.hpp
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.hpp
+[4.145s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.145s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.145s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__builder.hpp
+[4.146s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.hpp
+[4.146s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__traits.hpp
+[4.146s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.hpp
+[4.146s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.146s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.146s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.146s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_cpp.hpp
+[4.146s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[4.146s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.147s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_cpp.hpp
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.147s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps
+[4.147s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[4.147s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.147s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.147s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.148s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.148s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.148s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.c
+[4.148s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_c.h
+[4.148s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.148s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.148s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.c
+[4.148s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_c.h
+[4.148s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.149s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.149s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.149s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.c
+[4.149s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h
+[4.149s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[4.149s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.149s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[4.149s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[4.149s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.149s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.150s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_cpp.hpp
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp
+[4.150s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.150s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_cpp.hpp
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.cpp
+[4.150s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[4.150s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.cpp
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[4.150s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.151s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[4.151s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.151s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[4.151s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.151s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.151s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[4.152s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message_s.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[4.152s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age_s.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move_s.c
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py
+[4.152s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.199s] Listing '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[4.199s] Listing '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py'...
+[4.199s] Listing '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py'...
+[4.199s] Listing '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[4.199s] Compiling '/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py'...
+[4.203s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.203s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.203s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.204s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.204s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.204s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.205s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[4.205s] -- Set runtime path of "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[4.205s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.idl
+[4.205s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.idl
+[4.205s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.idl
+[4.206s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.msg
+[4.206s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.srv
+[4.206s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Request.msg
+[4.206s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Response.msg
+[4.206s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.action
+[4.206s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[4.206s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[4.206s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[4.207s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[4.207s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[4.207s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[4.207s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[4.207s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[4.207s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[4.207s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[4.207s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[4.208s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[4.208s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[4.208s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[4.208s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.208s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[4.208s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.209s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.209s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[4.209s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[4.209s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.209s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.210s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[4.210s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.210s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.210s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[4.210s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[4.211s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.211s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[4.211s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.211s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.212s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[4.212s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[4.212s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.212s] -- Old export file "/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[4.212s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[4.212s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.213s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.213s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.213s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.213s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.213s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.214s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.214s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.214s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[4.214s] -- Up-to-date: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[4.214s] -- Installing: /home/ivan/work/Ros_Rep/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[4.217s] Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_server:/home/ivan/work/Ros_Rep/ros2_ws/install/my_action_client:/home/ivan/work/Ros_Rep/ros2_ws/install/subscriber_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/remapping_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/qos_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/publisher_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/my_package:/home/ivan/work/Ros_Rep/ros2_ws/install/multithreading_ros2_examples:/home/ivan/work/Ros_Rep/ros2_ws/install/movement_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/launch_args_example_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise62_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise41_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise31_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/exercise21_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example_3_4_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example28_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/example26_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/dds_tests_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/client_pkg:/home/ivan/work/Ros_Rep/ros2_ws/install/build_test_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ivan/work/Ros_Rep/ros2_ws/build/custom_interfaces

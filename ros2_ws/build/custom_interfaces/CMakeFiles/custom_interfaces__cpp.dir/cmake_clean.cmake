@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_interfaces__cpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/move__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/move__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/move__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/move.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/age.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/age__builder.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/age__struct.hpp"
