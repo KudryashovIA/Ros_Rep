@@ -1,1 +1,0 @@
-/home/ivan/work/Ros_Rep/ros2_ws/build/build_test_pkg/launch/test.launch.py

@@ -1,2 +1,0 @@
-[console_scripts]
-my_action_server_exe = my_action_server.my_action_server:main

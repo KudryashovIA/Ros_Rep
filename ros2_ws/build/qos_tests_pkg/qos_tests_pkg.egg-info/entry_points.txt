@@ -1,3 +1,0 @@
-[console_scripts]
-publisher_liveliness_exe = qos_tests_pkg.publisher_liveliness:main
-subscriber_liveliness_exe = qos_tests_pkg.subscriber_liveliness:main

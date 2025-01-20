@@ -1,2 +1,0 @@
-Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/src/build_test_pkg': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
-Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/src/build_test_pkg' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

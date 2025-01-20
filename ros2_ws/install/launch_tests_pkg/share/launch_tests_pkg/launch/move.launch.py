@@ -1,1 +1,0 @@
-/home/ivan/work/Ros_Rep/ros2_ws/build/launch_tests_pkg/launch/move.launch.py

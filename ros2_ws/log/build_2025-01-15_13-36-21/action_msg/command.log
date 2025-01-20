@@ -1,2 +1,0 @@
-Invoking command in '/home/ivan/work/Ros_Rep/ros2_ws/build/action_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/work/Ros_Rep/ros2_ws/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/ivan/work/Ros_Rep/ros2_ws/install/action_msg
-Invoked command in '/home/ivan/work/Ros_Rep/ros2_ws/build/action_msg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/work/Ros_Rep/ros2_ws/src/action_msg -DCMAKE_INSTALL_PREFIX=/home/ivan/work/Ros_Rep/ros2_ws/install/action_msg

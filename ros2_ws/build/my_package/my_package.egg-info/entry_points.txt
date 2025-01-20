@@ -1,2 +1,0 @@
-[console_scripts]
-simple = my_package.simple:main

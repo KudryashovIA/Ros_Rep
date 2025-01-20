@@ -1,2 +1,0 @@
-[console_scripts]
-server_exercise62 = exercise62_pkg.server_exercise62:main

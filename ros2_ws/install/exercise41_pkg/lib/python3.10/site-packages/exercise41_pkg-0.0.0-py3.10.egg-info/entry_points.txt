@@ -1,2 +1,0 @@
-[console_scripts]
-logger_example_exe = exercise41_pkg.logger_example:main

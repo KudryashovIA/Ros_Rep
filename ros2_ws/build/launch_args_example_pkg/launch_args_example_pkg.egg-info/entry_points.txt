@@ -1,2 +1,0 @@
-[console_scripts]
-arguments_examples_demo = launch_args_example_pkg.arguments_examples:main
