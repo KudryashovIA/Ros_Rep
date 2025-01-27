@@ -1,0 +1,4 @@
+/param_vel_node:
+  ros__parameters:
+    use_sim_time: false
+    velocity: 0.2
